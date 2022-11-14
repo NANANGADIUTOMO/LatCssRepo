@@ -1,0 +1,71 @@
+.kotak1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.kotak2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.kotak3{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.kotak4{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.kotak5{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.bebas{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.pokkursi{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.ket button{
+    border-radius: 25px;
+    width: 100%;
+}
+
+.bebas .gambar{
+    width: 450px;
+    height: 300px;
+    margin-left: 6px;
+}
+
+.bebas .ket{
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.content{
+    height: 500px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+content .footer{
+    padding: 5%;
+    margin-top: 10%;
+    margin-left: 10px;
+}
+
+
