@@ -64,7 +64,7 @@ console.log("Nama              : " + murid[1].name);
 console.log("SMA               : " + murid[1].education[2].name);
 console.log("Kota              : " + murid[1].education[2].City);
 console.log("Makanan Favorit   : " + murid[1].favoritRestaurant[5]);
-console.log("warna Favorit     : " + murid[1].favoritColor[1]);
+
 
 
 
