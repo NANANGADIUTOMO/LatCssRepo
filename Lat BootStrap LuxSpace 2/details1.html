@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxSpace</title>
+    <link rel="stylesheet" href="CssStyle.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/jquery/jquery.js"></script>
+    <script src="/latjquery.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="/shiping.html"></script>
+</head>
+<body>
+    <div class="body">
+        <nav class="navbar navbar-light justify-content-between " style="background-color: #DCDCDC;">
+            <div class="logo">
+                <img src="./Asset Latihan Bootstrap/logo.png" alt="">
+                <p><small>Your Partner Room Design</small></p>
+            </div>
+            <div class="textatas">
+                <a class="nav-link text-dark" href=""> <img src="./Asset Latihan Bootstrap/61205.png" alt=""></a>
+                <a class="nav-link text-dark" href="">Showcase</a>
+                <a class="nav-link text-dark" href="">Catalog</a>
+                <a class="nav-link text-dark" href="">Delivery</a>
+                <a href=""><img src="./Asset Latihan Bootstrap/cart-icon.png"alt="" class="mt-2 mr-3" width="20px" height="20px"></a>
+            </div>
+            
+      </nav>
+      <div class="alert alert-warning alert-dismissible fade show d-none" role="alert" id="divAlert">
+        <p id="textalert"></p>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true" id="btnclose">&times;</span>
+        </button>
+      </div>    
+            <nav class="navbar navbar-expand-lg mt-1" style="background-color: #DCDCDC;" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"  aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                <a class="nav-link text-dark" href="./home.html"><b>Home /</b><span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                <a class="nav-link text-dark" href="./details1.html"><b>Product /</b><span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link text-dark" href="#"><b>Shiping </b><span class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+        </nav>
+    
+    <div class="bebas">
+        <div class="kotak">
+          <div class="kotak1"><img src="./Asset Latihan Bootstrap/side-1.png" alt=""></div>
+          <div class="kotak2"><img src="./Asset Latihan Bootstrap/side-2.png" alt=""></div>
+          <div class="kotak3"><img src="./Asset Latihan Bootstrap/side-3.png" alt=""></div>
+          <div class="kotak4"><img src="./Asset Latihan Bootstrap/side-2.png" alt=""></div>
+          <div class="kotak5"><img src="./Asset Latihan Bootstrap/side-1.png" alt=""></div>
+        </div>
+    
+        <div class="gambar">
+            <img src="/Asset Latihan Bootstrap/chair.png" alt="" id="imgkursi">
+        </div>
+    
+        <div class="ket">
+            <h2>Chair Thatty</h2>
+            <p>IDR. 12.000.000</p>
+            <a href="./shiping.html" class="btn" style="background-color: pink;"><img src="./Asset Latihan Bootstrap/cart-icon.png" alt="" class="mr-3 mb-1" id="addtochart">Add to Chart</a>
+                <!-- <button type="menu" class="btn" style="background-color: pink;"><img src="./Asset Latihan Bootstrap/cart-icon.png" alt="" class="mr-3 mb-1" >Add to Chart</button> -->
+                    <br><br><br><br>
+                <h3>About The Product:</h3>
+                <p>Tailored ta a level of perfection Synonimous with that <br> 
+                    of a savile row suit and with understand quality in the<br>
+                    detail, jetty has been influenced by timeles 1950s style<br>
+                </p>
+                <br>
+                <p>
+                    providing a subtle nod to the past, jetty also provides<br>
+                    a perfect solution for the way we work today. <br>
+                    A comprehensif product family, jetty features a variety<br>
+                    of elegant chairs and sofas.
+                </p>
+        </div>
+    </div>
+    <br><br>
+    
+    <div class="content">
+        <div class="footer">
+            <center><h3>Complete Your Room</h3>
+                <p><h3>With What we Designed</h3></p></center>
+        </div>
+         <div class="pokkursi" id="pokkursi">
+                <div class="kursi1">
+                    <img src="./Asset Latihan Bootstrap/chair-1.png" alt="">
+                    <p><p><center><h6 id="cangkir">Cangkir Mauttie</h6></center></p></p>
+                    <center><p id="idr">IDR. 83.300.000</p></center>
+                    <center><button type="submit" class="btn btn-success" id="buttondetail1">Details</button></center>            
+                </div>
+                <div class="kursi2">
+                    <img src="./Asset Latihan Bootstrap/chair-2.png" alt="">
+                    <p><center><h6>Saman Kakka</h6></center></p>
+                    <center><P>IDR. 14.500.000</P></center>
+                    <center><button type="submit" class="btn btn-success" id="buttondetail2">Details</button></center>  
+                </div>
+                <div class="kursi3">
+                    <img src="./Asset Latihan Bootstrap/chair-3.png" alt="">
+                    <p><center><h6>Lino Dino</h6></center></p>
+                    <center><P>IDR. 22.000.000</P></center>
+                    <center><button type="submit" class="btn btn-success" id="buttondetail3">Details</button></center>  
+                </div>
+                <div class="kursi4">
+                    <img src="./Asset Latihan Bootstrap/chair-4.png" alt="">
+                    <p><center><h6>Syail Ammemo</h6></center></p>
+                    <center><P>IDR. 12.000.000</P></center>
+                    <center><button type="submit" class="btn btn-success" id="buttondetail4">Details</button></center>  
+                </div>
+            </div>
+    </div>
+    </body><br>
+    
+    <div class="footer">
+        <center><img src="./Asset Latihan Bootstrap/logo.png" alt="" class="logolux"></center>
+        <center><small>Your Partner Room Design</small></center> 
+        <br>
+        <div class="foot">
+            <div >
+                <a class="nav-link text-dark" href=""><b>Overview</b></a>
+                <a class="nav-link text-dark" href="/shiping.html">Shipping</a>
+                <a class="nav-link text-dark" href="">Refund</a>
+                <a class="nav-link text-dark" href="">Promotion</a>
+            </div>
+            <div>
+                <a class="nav-link text-dark" href=""><b>Company</b></a>
+                <a class="nav-link text-dark" href="">About</a>
+                <a class="nav-link text-dark" href="">Career</a>
+                <a class="nav-link text-dark" href="">Contact Us</a>
+            </div>
+            <div>
+                <a class="nav-link text-dark" href=""><b>Explore</b></a>
+                <a class="nav-link text-dark" href="">Term & Condition</a>
+                <a class="nav-link text-dark" href="">Privacy Police</a>
+                <a class="nav-link text-dark" href="">For Developer</a>
+            </div>
+            <div>
+                <p><b>Special Letter</b></p>
+                <p>
+                    <div class="input-group mb-2">
+                        <input 
+                        type="text" 
+                        class="form-control"
+                        placeholder="Your Email Address" 
+                        aria-describedby="basic-addon2"
+                        id="valnama">
+                        <div class="input-group-append">
+                          <button type="submit" class="btn" id="btnsubmit"><img src="./Asset Latihan Bootstrap/tele-icon.png" alt="" class="input-group-text" id="basic-addon2" style="background-color: pink;"></button>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div><br><br><br>
+    <center><small><p>Jasa Kirim :</p></small></center>
+    <div class="kirim">
+       <div class="satu"><p><img src="./Asset Latihan Bootstrap/logo-Indoexpress.png" alt=""></p></div>
+       <div class="dua"><img src="./Asset Latihan Bootstrap/anter.png" alt=""></div>
+       <div class="tiga"><img src="./Asset Latihan Bootstrap/cargo.png" alt=""></div>
+       <div class="empat" ><img src="./Asset Latihan Bootstrap/jne.jpg" alt=""></div>
+       <div class="lima"><img src="./Asset Latihan Bootstrap/jnt ex.png" alt=""></div>
+    </div><br>
+    <center><small><p>Pembayaran Via :</p></small></center>
+    <div class="ctn">
+        
+        <div class="ctn1"><img src="./Asset Latihan Bootstrap/credit/american-express.png" alt=""></div>
+        <div class="ctn2"><img src="./Asset Latihan Bootstrap/credit/cirrus.png" alt=""></div>
+        <div class="ctn3"><img src="./Asset Latihan Bootstrap/credit/mastercard.png" alt=""></div>
+        <div class="ctn4"><img src="./Asset Latihan Bootstrap/credit/mestro.png" alt=""></div>
+        <div class="ctn5"><img src="./Asset Latihan Bootstrap/credit/paypal2.png" alt=""></div>
+        <div class="ctn6"><img src="./Asset Latihan Bootstrap/BRI.png" alt=""></div>
+    </div>
+    <br><br>
+    <div class="copy"><center><small>Copyright 2021 @All Right Reserved LuxSpace By Buildwith Nanang</small></center></div>
+    </div>
+   
+    <!-- <script>
+        $(document).ready(function () {
+    
+        console.log("masuk");
+    });
+    </script> -->
+</body>
+</html>

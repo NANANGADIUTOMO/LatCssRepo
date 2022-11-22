@@ -1,0 +1,292 @@
+.body{
+    background-color:cornflowerblue;
+}
+.kotak1{
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+    border-radius: 7%;
+    background-color: white;
+}
+.kotak1:hover{
+    transform: scale(1.2);
+    border: 2px solid;
+}
+.kotak2{
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: 0.6s;
+    border-radius: 7%;
+    background-color: white;
+}
+.kotak2:hover{
+    transform: scale(1.2);
+    border: 2px solid;
+}
+.kotak3{
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: 0.6s;
+    border-radius: 7%;
+    background-color: white;
+}
+.kotak3:hover{
+    transform: scale(1.2);
+    border: 2px solid;
+}
+.kotak4{
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: 0.6s;
+    border-radius: 7%;
+    background-color: white;
+}
+.kotak4:hover{
+    transform: scale(1.2);
+    border: 2px solid;
+}
+.kotak5{
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: 0.6s;
+    border-radius: 7%;
+    background-color: white;
+}
+.kotak5:hover{
+    transform: scale(1.2);
+    border: 2px solid;
+}
+.bebas{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+.bebas .kotak{
+    margin-right: 20px;
+}
+.pokkursi{
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.ket button{
+    border-radius: 25px;
+    width: 100%;
+}
+.bebas .gambar{
+    height: 600px;
+    margin-top: 19px;
+    margin-left: 20px;
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 7%;
+}
+.bebas .gambar:hover{
+    transform: scale(1.1);
+    border: 2px solid;
+}
+.bebas .ket{
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.content{
+    height: 550px;
+    background-color:rgb(148, 204, 116);
+
+}
+.content h2{
+    font-weight: bolder;
+    font-family:'Courier New';
+    color: rebeccapurple;
+}
+.content .footer{
+    padding: 1%;
+    margin-left: 60px;
+    font-family: Copperplate Gothic Light;
+}
+.content .pokkursi .kursi1{
+    background-color: white;
+    border-radius: 7%;
+    transition: 0.6s;
+}
+/* .content .pokkursi .kursi1:hover{
+    transform: scale(1.1);
+    border: 2px solid;
+} */
+.content .pokkursi .kursi2{
+    background-color: white;
+    border-radius: 7%;
+    transition: 0.6s;
+}
+/* .content .pokkursi .kursi2:hover{
+    transform: scale(1.1);
+    border: 2px solid;
+} */
+.content .pokkursi .kursi3{
+    background-color: white;
+    border-radius: 7%;
+    transition: 0.6s;
+}
+/* .content .pokkursi .kursi3:hover{
+    transform: scale(1.1);
+    border: 2px solid;
+} */
+.content .pokkursi .kursi4{
+    background-color: white;
+    border-radius: 7%;
+    transition: 0.6s;
+}
+/* .content .pokkursi .kursi4:hover{
+    transform: scale(1.1);
+    border: 2px solid;
+} */
+.content .pokkursi button{
+    border-radius: 25px;
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    font-family:'Lucida Sans';
+}
+.footer small{
+    font-family: Lucida Sans Typewriter;
+}
+.footer{
+    margin-top: 30px;
+    height: 200px;
+}
+nav .logo img{
+    width: 120px;
+    height: 45px;
+}
+nav .logo p{
+    font-size: 13px;
+    font-family: Lucida Sans Typewriter;
+}
+nav{
+    height: 80px;
+}
+nav .textatas{
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-family:'Lucida Sans Typewriter';
+}
+.ket h2{
+    font-family: Impact;
+}
+.ket h3{
+    font-family:'Segoe UI';
+    font-size: 20px;
+}
+.ctn{
+    display:flex;
+    margin-top: 2px;
+    justify-content: center;
+}
+.ctn .ctn1{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ctn .ctn2{
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.ctn .ctn3{
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.ctn .ctn4{
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.ctn .ctn5{
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.ctn .ctn6{
+    background-color:white;
+    width: 56px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.kirim{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+.kirim .satu{
+    background-color: white;
+    height: 43px;
+    width: 100px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.kirim .dua{
+    background-color: white;
+    height: 43px;
+    width: 100px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.kirim .tiga{
+    background-color: white;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.kirim .empat{
+    background-color: white;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.kirim .lima{
+    background-color: white;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+.content2{
+    height: 590px;
+    display: flex  ;
+    justify-content: space-around;
+}
+
+.isicontent{
+    align-content: center;
+    margin-top: 3px;
+    justify-content: space-around;
+    border: 2px solid;
+    border-color: red;
+    width: 550px;
+    height: 100%;
+}
+
+.content2 .isicontent .isi{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.isicontent .textshiping{
+    font-size: 25px;
+}
+
+.content2 .isicontent .adress{
+    margin-left: 52px;
+}
+
+.content2 .isicontent .buttonsubmit{
+    margin-left: 52px;
+}
+.footership{
+    margin-top: 5%;
+}
+
+    
